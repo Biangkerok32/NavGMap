@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavGMap</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="my_api_key">AIzaSyBFTjE0cSr2_t4Z9WpEyoZDI8tG2QdmWD0</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+</resources>

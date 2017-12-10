@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.MapsApplication.Details">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="30dp"
+        android:id="@+id/text1"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/text2"
+        android:textColor="#000000"
+
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/text3"
+        android:textColor="#000000"
+
+        android:textSize="20dp"/>
+    <Chronometer
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:gravity="center"
+        android:textColorHighlight="#975887"
+        android:textSize="20dp"
+        android:id="@+id/stopwatch"
+        android:textColor="#4169E1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/stopwatch"
+        android:id="@+id/linearLayout"
+        android:weightSum="1">
+
+    <Button
+        android:layout_width="161dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/text2"
+        android:id="@+id/start"
+        android:text="Start journey"
+        android:layout_weight="0.79" />
+
+        <Button
+            android:id="@+id/end"
+            android:layout_width="161dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="10dp"
+            android:text="End journey"
+            android:layout_weight="0.79" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+    </ScrollView>
+
+
+
